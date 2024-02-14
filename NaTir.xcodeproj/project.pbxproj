@@ -1,0 +1,983 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6318509929E203E500D97444 /* Connection Result Row.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6318509829E203E500D97444 /* Connection Result Row.swift */; };
+		6318509B29E20B9800D97444 /* Date - Convert to Presentable Format.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6318509A29E20B9800D97444 /* Date - Convert to Presentable Format.swift */; };
+		6318814029E089B6005E042C /* App State.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6318813F29E089B6005E042C /* App State.swift */; };
+		6318814229E089C8005E042C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6318814129E089C8005E042C /* AppDelegate.swift */; };
+		6318814829E08A95005E042C /* Connections View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6318814729E08A95005E042C /* Connections View.swift */; };
+		6318814A29E08AAD005E042C /* My Tickets View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6318814929E08AAD005E042C /* My Tickets View.swift */; };
+		6318814C29E08ABE005E042C /* More View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6318814B29E08ABE005E042C /* More View.swift */; };
+		635CB25529E0AA0A00796968 /* App Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635CB25429E0AA0A00796968 /* App Constants.swift */; };
+		635CB25829E0B6E200796968 /* Get Stations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635CB25729E0B6E200796968 /* Get Stations.swift */; };
+		635CB25A29E0B6F700796968 /* Station.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635CB25929E0B6F700796968 /* Station.swift */; };
+		635CB25D29E0B78F00796968 /* Stations View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635CB25C29E0B78F00796968 /* Stations View.swift */; };
+		635CB26129E0B83200796968 /* Send SOAP Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635CB26029E0B83200796968 /* Send SOAP Request.swift */; };
+		635CB26329E0B8C000796968 /* API Actions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635CB26229E0B8C000796968 /* API Actions.swift */; };
+		635CB26629E0BA7F00796968 /* API Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635CB26529E0BA7F00796968 /* API Error.swift */; };
+		635CB26929E0BD9F00796968 /* SwiftyXMLParser in Frameworks */ = {isa = PBXBuildFile; productRef = 635CB26829E0BD9F00796968 /* SwiftyXMLParser */; };
+		635CB26B29E0C28500796968 /* Station List Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635CB26A29E0C28500796968 /* Station List Item.swift */; };
+		635CB26F29E0C5F400796968 /* Station List.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635CB26E29E0C5F400796968 /* Station List.swift */; };
+		635CB27129E0CB8D00796968 /* Fake Text Field.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635CB27029E0CB8D00796968 /* Fake Text Field.swift */; };
+		637C774E29E40ECC004DA1EC /* Train Name View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 637C774D29E40ECC004DA1EC /* Train Name View.swift */; };
+		637C775029E41343004DA1EC /* Train Accessories List View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 637C774F29E41343004DA1EC /* Train Accessories List View.swift */; };
+		637E4E2929EC320B004233BA /* Labeled Divider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 637E4E2829EC320B004233BA /* Labeled Divider.swift */; };
+		63A7D20829E076CE00A73C2C /* NaTirApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A7D20729E076CE00A73C2C /* NaTirApp.swift */; };
+		63A7D20A29E076CE00A73C2C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A7D20929E076CE00A73C2C /* ContentView.swift */; };
+		63A7D20C29E076CF00A73C2C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63A7D20B29E076CF00A73C2C /* Assets.xcassets */; };
+		63A7D20F29E076CF00A73C2C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63A7D20E29E076CF00A73C2C /* Preview Assets.xcassets */; };
+		63AF8E0B29E2C473007BE600 /* Train List Row.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63AF8E0A29E2C473007BE600 /* Train List Row.swift */; };
+		63AF8E0D29E2C502007BE600 /* Connection Details View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63AF8E0C29E2C502007BE600 /* Connection Details View.swift */; };
+		63AF8E0F29E3001E007BE600 /* TimeInterval - Convert to Presentable Fromat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63AF8E0E29E3001E007BE600 /* TimeInterval - Convert to Presentable Fromat.swift */; };
+		63AF8E1229E31870007BE600 /* Navigation Arrow Thing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63AF8E1129E31870007BE600 /* Navigation Arrow Thing.swift */; };
+		63AF8E1429E3231C007BE600 /* Buy Tickets Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63AF8E1329E3231C007BE600 /* Buy Tickets Button.swift */; };
+		63AF8E1729E32AC0007BE600 /* Station Detail View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63AF8E1629E32AC0007BE600 /* Station Detail View.swift */; };
+		63AF8E1929E35874007BE600 /* Get Train Stops.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63AF8E1829E35874007BE600 /* Get Train Stops.swift */; };
+		63AF8E1B29E358A0007BE600 /* Train Stop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63AF8E1A29E358A0007BE600 /* Train Stop.swift */; };
+		63AF8E1E29E35BF1007BE600 /* Train Detail View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63AF8E1D29E35BF1007BE600 /* Train Detail View.swift */; };
+		63AF8E2129E36114007BE600 /* Compact Station List Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63AF8E2029E36114007BE600 /* Compact Station List Item.swift */; };
+		63AF8E2329E362F8007BE600 /* View - Conditional Modifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63AF8E2229E362F8007BE600 /* View - Conditional Modifiers.swift */; };
+		63D00D1029E16051002FF774 /* Better Map View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D00D0F29E16051002FF774 /* Better Map View.swift */; };
+		63D00D1629E19053002FF774 /* Location Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D00D1529E19053002FF774 /* Location Manager.swift */; };
+		63D00D1929E1AD1D002FF774 /* Array - Closest Element.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D00D1829E1AD1D002FF774 /* Array - Closest Element.swift */; };
+		63D00D1B29E1B350002FF774 /* Get Route.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D00D1A29E1B350002FF774 /* Get Route.swift */; };
+		63D00D1E29E1BEA0002FF774 /* Journey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D00D1D29E1BEA0002FF774 /* Journey.swift */; };
+		63D00D2029E1BEE5002FF774 /* Stopover.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D00D1F29E1BEE5002FF774 /* Stopover.swift */; };
+		63D00D2229E1BF32002FF774 /* Train.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D00D2129E1BF32002FF774 /* Train.swift */; };
+		63D00D2729E1E707002FF774 /* Connections Result View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D00D2629E1E707002FF774 /* Connections Result View.swift */; };
+		63D00D2A29E1E828002FF774 /* Journey Tracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D00D2929E1E828002FF774 /* Journey Tracker.swift */; };
+		63DABE9D29E48DE900820E28 /* Favorite Route Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63DABE9C29E48DE900820E28 /* Favorite Route Item.swift */; };
+		63DABE9F29E48EF900820E28 /* Favorites Tracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63DABE9E29E48EF900820E28 /* Favorites Tracker.swift */; };
+		63DABEA129E48F4300820E28 /* History Tracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63DABEA029E48F4300820E28 /* History Tracker.swift */; };
+		63DF1CC229E57E4200A709FC /* Encode For Saving.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63DF1CC129E57E4200A709FC /* Encode For Saving.swift */; };
+		63DF1CC529E57F0A00A709FC /* Decode From File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63DF1CC429E57F0A00A709FC /* Decode From File.swift */; };
+		63DF1CC729E57FD300A709FC /* Write Data to File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63DF1CC629E57FD300A709FC /* Write Data to File.swift */; };
+		63DF1CCC29E582FA00A709FC /* CLLocationCoordinate - Made Codable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63DF1CCB29E582FA00A709FC /* CLLocationCoordinate - Made Codable.swift */; };
+		63DF1CCF29E58AAE00A709FC /* Create Empty File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63DF1CCE29E58AAE00A709FC /* Create Empty File.swift */; };
+		63DF1CD229E5F76300A709FC /* CodeScanner in Frameworks */ = {isa = PBXBuildFile; productRef = 63DF1CD129E5F76300A709FC /* CodeScanner */; };
+		63DF1CD529E5F9FC00A709FC /* Ticket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63DF1CD429E5F9FC00A709FC /* Ticket.swift */; };
+		63DF1CD729E5FAEC00A709FC /* Tickets Tracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63DF1CD629E5FAEC00A709FC /* Tickets Tracker.swift */; };
+		63DF1CD929E5FB5200A709FC /* Ticket Display View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63DF1CD829E5FB5200A709FC /* Ticket Display View.swift */; };
+		63DF1CE329E6BA3900A709FC /* Old Ticket Row.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63DF1CE229E6BA3900A709FC /* Old Ticket Row.swift */; };
+		63DF1CE529E710D900A709FC /* Date - Remove Timestamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63DF1CE429E710D900A709FC /* Date - Remove Timestamp.swift */; };
+		63DF1CE829E7384E00A709FC /* Combine Date with Time.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63DF1CE729E7384E00A709FC /* Combine Date with Time.swift */; };
+		63DF1CEB29E8044F00A709FC /* Calendar Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63DF1CEA29E8044F00A709FC /* Calendar Manager.swift */; };
+		63E83DF429E86E6600F67ABC /* Date - Get Tomorrow's Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E83DF329E86E6600F67ABC /* Date - Get Tomorrow's Date.swift */; };
+		63E83DF729E879BE00F67ABC /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 63E83DF929E879BE00F67ABC /* Localizable.strings */; };
+		63E83DFF29E9635A00F67ABC /* Delay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E83DFE29E9635A00F67ABC /* Delay.swift */; };
+		63E83E0229E96B8000F67ABC /* Match REGEX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E83E0129E96B8000F67ABC /* Match REGEX.swift */; };
+		63E83E0429E96F0300F67ABC /* Pill View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E83E0329E96F0300F67ABC /* Pill View.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6318509829E203E500D97444 /* Connection Result Row.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Connection Result Row.swift"; sourceTree = "<group>"; };
+		6318509A29E20B9800D97444 /* Date - Convert to Presentable Format.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date - Convert to Presentable Format.swift"; sourceTree = "<group>"; };
+		6318813F29E089B6005E042C /* App State.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "App State.swift"; sourceTree = "<group>"; };
+		6318814129E089C8005E042C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6318814729E08A95005E042C /* Connections View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Connections View.swift"; sourceTree = "<group>"; };
+		6318814929E08AAD005E042C /* My Tickets View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "My Tickets View.swift"; sourceTree = "<group>"; };
+		6318814B29E08ABE005E042C /* More View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "More View.swift"; sourceTree = "<group>"; };
+		635CB25429E0AA0A00796968 /* App Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "App Constants.swift"; sourceTree = "<group>"; };
+		635CB25729E0B6E200796968 /* Get Stations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Get Stations.swift"; sourceTree = "<group>"; };
+		635CB25929E0B6F700796968 /* Station.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Station.swift; sourceTree = "<group>"; };
+		635CB25C29E0B78F00796968 /* Stations View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Stations View.swift"; sourceTree = "<group>"; };
+		635CB26029E0B83200796968 /* Send SOAP Request.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Send SOAP Request.swift"; sourceTree = "<group>"; };
+		635CB26229E0B8C000796968 /* API Actions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "API Actions.swift"; sourceTree = "<group>"; };
+		635CB26529E0BA7F00796968 /* API Error.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "API Error.swift"; sourceTree = "<group>"; };
+		635CB26A29E0C28500796968 /* Station List Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Station List Item.swift"; sourceTree = "<group>"; };
+		635CB26E29E0C5F400796968 /* Station List.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Station List.swift"; sourceTree = "<group>"; };
+		635CB27029E0CB8D00796968 /* Fake Text Field.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Fake Text Field.swift"; sourceTree = "<group>"; };
+		637C774D29E40ECC004DA1EC /* Train Name View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Train Name View.swift"; sourceTree = "<group>"; };
+		637C774F29E41343004DA1EC /* Train Accessories List View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Train Accessories List View.swift"; sourceTree = "<group>"; };
+		637E4E2829EC320B004233BA /* Labeled Divider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Labeled Divider.swift"; sourceTree = "<group>"; };
+		63A7D20429E076CE00A73C2C /* NaTir.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NaTir.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		63A7D20729E076CE00A73C2C /* NaTirApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NaTirApp.swift; sourceTree = "<group>"; };
+		63A7D20929E076CE00A73C2C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		63A7D20B29E076CF00A73C2C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		63A7D20E29E076CF00A73C2C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		63AF8E0A29E2C473007BE600 /* Train List Row.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Train List Row.swift"; sourceTree = "<group>"; };
+		63AF8E0C29E2C502007BE600 /* Connection Details View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Connection Details View.swift"; sourceTree = "<group>"; };
+		63AF8E0E29E3001E007BE600 /* TimeInterval - Convert to Presentable Fromat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TimeInterval - Convert to Presentable Fromat.swift"; sourceTree = "<group>"; };
+		63AF8E1129E31870007BE600 /* Navigation Arrow Thing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Navigation Arrow Thing.swift"; sourceTree = "<group>"; };
+		63AF8E1329E3231C007BE600 /* Buy Tickets Button.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Buy Tickets Button.swift"; sourceTree = "<group>"; };
+		63AF8E1629E32AC0007BE600 /* Station Detail View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Station Detail View.swift"; sourceTree = "<group>"; };
+		63AF8E1829E35874007BE600 /* Get Train Stops.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Get Train Stops.swift"; sourceTree = "<group>"; };
+		63AF8E1A29E358A0007BE600 /* Train Stop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Train Stop.swift"; sourceTree = "<group>"; };
+		63AF8E1D29E35BF1007BE600 /* Train Detail View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Train Detail View.swift"; sourceTree = "<group>"; };
+		63AF8E2029E36114007BE600 /* Compact Station List Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Compact Station List Item.swift"; sourceTree = "<group>"; };
+		63AF8E2229E362F8007BE600 /* View - Conditional Modifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View - Conditional Modifiers.swift"; sourceTree = "<group>"; };
+		63D00D0F29E16051002FF774 /* Better Map View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Better Map View.swift"; sourceTree = "<group>"; };
+		63D00D1529E19053002FF774 /* Location Manager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Location Manager.swift"; sourceTree = "<group>"; };
+		63D00D1729E1923D002FF774 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		63D00D1829E1AD1D002FF774 /* Array - Closest Element.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array - Closest Element.swift"; sourceTree = "<group>"; };
+		63D00D1A29E1B350002FF774 /* Get Route.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Get Route.swift"; sourceTree = "<group>"; };
+		63D00D1D29E1BEA0002FF774 /* Journey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Journey.swift; sourceTree = "<group>"; };
+		63D00D1F29E1BEE5002FF774 /* Stopover.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stopover.swift; sourceTree = "<group>"; };
+		63D00D2129E1BF32002FF774 /* Train.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Train.swift; sourceTree = "<group>"; };
+		63D00D2629E1E707002FF774 /* Connections Result View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Connections Result View.swift"; sourceTree = "<group>"; };
+		63D00D2929E1E828002FF774 /* Journey Tracker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Journey Tracker.swift"; sourceTree = "<group>"; };
+		63DABE9C29E48DE900820E28 /* Favorite Route Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Favorite Route Item.swift"; sourceTree = "<group>"; };
+		63DABE9E29E48EF900820E28 /* Favorites Tracker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Favorites Tracker.swift"; sourceTree = "<group>"; };
+		63DABEA029E48F4300820E28 /* History Tracker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "History Tracker.swift"; sourceTree = "<group>"; };
+		63DF1CC129E57E4200A709FC /* Encode For Saving.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Encode For Saving.swift"; sourceTree = "<group>"; };
+		63DF1CC429E57F0A00A709FC /* Decode From File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Decode From File.swift"; sourceTree = "<group>"; };
+		63DF1CC629E57FD300A709FC /* Write Data to File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Write Data to File.swift"; sourceTree = "<group>"; };
+		63DF1CCB29E582FA00A709FC /* CLLocationCoordinate - Made Codable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CLLocationCoordinate - Made Codable.swift"; sourceTree = "<group>"; };
+		63DF1CCE29E58AAE00A709FC /* Create Empty File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Create Empty File.swift"; sourceTree = "<group>"; };
+		63DF1CD429E5F9FC00A709FC /* Ticket.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ticket.swift; sourceTree = "<group>"; };
+		63DF1CD629E5FAEC00A709FC /* Tickets Tracker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Tickets Tracker.swift"; sourceTree = "<group>"; };
+		63DF1CD829E5FB5200A709FC /* Ticket Display View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Ticket Display View.swift"; sourceTree = "<group>"; };
+		63DF1CE229E6BA3900A709FC /* Old Ticket Row.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Old Ticket Row.swift"; sourceTree = "<group>"; };
+		63DF1CE429E710D900A709FC /* Date - Remove Timestamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date - Remove Timestamp.swift"; sourceTree = "<group>"; };
+		63DF1CE729E7384E00A709FC /* Combine Date with Time.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Combine Date with Time.swift"; sourceTree = "<group>"; };
+		63DF1CEA29E8044F00A709FC /* Calendar Manager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Calendar Manager.swift"; sourceTree = "<group>"; };
+		63E83DF329E86E6600F67ABC /* Date - Get Tomorrow's Date.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date - Get Tomorrow's Date.swift"; sourceTree = "<group>"; };
+		63E83DF829E879BE00F67ABC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		63E83DFA29E879CA00F67ABC /* sl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sl; path = sl.lproj/Localizable.strings; sourceTree = "<group>"; };
+		63E83DFB29E88CC800F67ABC /* cs */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = cs; path = cs.lproj/Localizable.strings; sourceTree = "<group>"; };
+		63E83DFE29E9635A00F67ABC /* Delay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Delay.swift; sourceTree = "<group>"; };
+		63E83E0129E96B8000F67ABC /* Match REGEX.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Match REGEX.swift"; sourceTree = "<group>"; };
+		63E83E0329E96F0300F67ABC /* Pill View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Pill View.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		63A7D20129E076CE00A73C2C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63DF1CD229E5F76300A709FC /* CodeScanner in Frameworks */,
+				635CB26929E0BD9F00796968 /* SwiftyXMLParser in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6318813529E08960005E042C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Models;
+			path = NaTir/Models;
+			sourceTree = SOURCE_ROOT;
+		};
+		6318813629E08960005E042C /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Enums;
+			path = NaTir/Enums;
+			sourceTree = SOURCE_ROOT;
+		};
+		6318813729E08960005E042C /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Extensions;
+			path = NaTir/Extensions;
+			sourceTree = SOURCE_ROOT;
+		};
+		6318813829E08960005E042C /* Logic */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Logic;
+			path = NaTir/Logic;
+			sourceTree = SOURCE_ROOT;
+		};
+		6318813A29E08977005E042C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				635CB26C29E0C5DA00796968 /* Shared */,
+				6318814329E08A52005E042C /* Connections */,
+				6318814429E08A61005E042C /* My Tickets */,
+				635CB25B29E0B78000796968 /* Stations */,
+				6318814529E08A6C005E042C /* More */,
+				63AF8E1C29E35BD5007BE600 /* Train Details */,
+				63AF8E1029E3185C007BE600 /* Reusables */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		6318813B29E0897C005E042C /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				63D00D1829E1AD1D002FF774 /* Array - Closest Element.swift */,
+				6318509A29E20B9800D97444 /* Date - Convert to Presentable Format.swift */,
+				63AF8E0E29E3001E007BE600 /* TimeInterval - Convert to Presentable Fromat.swift */,
+				63AF8E2229E362F8007BE600 /* View - Conditional Modifiers.swift */,
+				63DF1CCB29E582FA00A709FC /* CLLocationCoordinate - Made Codable.swift */,
+				63DF1CE429E710D900A709FC /* Date - Remove Timestamp.swift */,
+				63E83DF329E86E6600F67ABC /* Date - Get Tomorrow's Date.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		6318813C29E08982005E042C /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				635CB26429E0BA7500796968 /* API */,
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
+		6318813D29E08985005E042C /* Logic */ = {
+			isa = PBXGroup;
+			children = (
+				63DF1CE629E7384400A709FC /* Dates */,
+				63DF1CC029E57DC600A709FC /* File Management */,
+				63DABEA229E4A22300820E28 /* Journeys */,
+				635CB25629E0B6C900796968 /* Networking */,
+				63E83E0029E96B7000F67ABC /* Helpers */,
+			);
+			path = Logic;
+			sourceTree = "<group>";
+		};
+		6318813E29E089A3005E042C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				63DF1CE929E8043100A709FC /* Calendar */,
+				63D00D2829E1E81B002FF774 /* Trackers */,
+				63DF1CD329E5F9E800A709FC /* Ticket */,
+				63D00D1C29E1BE91002FF774 /* Journey */,
+				63D00D1429E19046002FF774 /* Map */,
+				635CB25929E0B6F700796968 /* Station.swift */,
+				63D00D2129E1BF32002FF774 /* Train.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		6318814329E08A52005E042C /* Connections */ = {
+			isa = PBXGroup;
+			children = (
+				63D00D2529E1E6F7002FF774 /* Connection Results */,
+				63DABE9B29E48DD200820E28 /* History */,
+				63DABE9A29E48DCA00820E28 /* Favorites */,
+				6318814729E08A95005E042C /* Connections View.swift */,
+			);
+			path = Connections;
+			sourceTree = "<group>";
+		};
+		6318814429E08A61005E042C /* My Tickets */ = {
+			isa = PBXGroup;
+			children = (
+				63DF1CE129E6B9B200A709FC /* Components */,
+				63DF1CE029E6B99B00A709FC /* Ticket Display */,
+				6318814929E08AAD005E042C /* My Tickets View.swift */,
+			);
+			path = "My Tickets";
+			sourceTree = "<group>";
+		};
+		6318814529E08A6C005E042C /* More */ = {
+			isa = PBXGroup;
+			children = (
+				6318814B29E08ABE005E042C /* More View.swift */,
+			);
+			path = More;
+			sourceTree = "<group>";
+		};
+		635CB25629E0B6C900796968 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				635CB25729E0B6E200796968 /* Get Stations.swift */,
+				63D00D1A29E1B350002FF774 /* Get Route.swift */,
+				63AF8E1829E35874007BE600 /* Get Train Stops.swift */,
+				635CB26029E0B83200796968 /* Send SOAP Request.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		635CB25B29E0B78000796968 /* Stations */ = {
+			isa = PBXGroup;
+			children = (
+				63AF8E1529E32AB0007BE600 /* Station Details */,
+				63D00D1129E16ACA002FF774 /* Map View */,
+				635CB25C29E0B78F00796968 /* Stations View.swift */,
+			);
+			path = Stations;
+			sourceTree = "<group>";
+		};
+		635CB26429E0BA7500796968 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				635CB26229E0B8C000796968 /* API Actions.swift */,
+				635CB26529E0BA7F00796968 /* API Error.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		635CB26C29E0C5DA00796968 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				635CB26D29E0C5E300796968 /* Stations */,
+				635CB27029E0CB8D00796968 /* Fake Text Field.swift */,
+				63E83E0329E96F0300F67ABC /* Pill View.swift */,
+				637E4E2829EC320B004233BA /* Labeled Divider.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		635CB26D29E0C5E300796968 /* Stations */ = {
+			isa = PBXGroup;
+			children = (
+				635CB26A29E0C28500796968 /* Station List Item.swift */,
+				635CB26E29E0C5F400796968 /* Station List.swift */,
+			);
+			path = Stations;
+			sourceTree = "<group>";
+		};
+		637C774C29E40EBF004DA1EC /* Reusables */ = {
+			isa = PBXGroup;
+			children = (
+				637C774D29E40ECC004DA1EC /* Train Name View.swift */,
+				637C774F29E41343004DA1EC /* Train Accessories List View.swift */,
+			);
+			path = Reusables;
+			sourceTree = "<group>";
+		};
+		63A7D1FB29E076CE00A73C2C = {
+			isa = PBXGroup;
+			children = (
+				63A7D20629E076CE00A73C2C /* NaTir */,
+				63A7D20529E076CE00A73C2C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		63A7D20529E076CE00A73C2C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				63A7D20429E076CE00A73C2C /* NaTir.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		63A7D20629E076CE00A73C2C /* NaTir */ = {
+			isa = PBXGroup;
+			children = (
+				63D00D1729E1923D002FF774 /* Info.plist */,
+				6318813B29E0897C005E042C /* Extensions */,
+				6318813C29E08982005E042C /* Enums */,
+				6318813E29E089A3005E042C /* Models */,
+				6318813D29E08985005E042C /* Logic */,
+				6318813A29E08977005E042C /* Views */,
+				63A7D20729E076CE00A73C2C /* NaTirApp.swift */,
+				63A7D20929E076CE00A73C2C /* ContentView.swift */,
+				63A7D20B29E076CF00A73C2C /* Assets.xcassets */,
+				63A7D20D29E076CF00A73C2C /* Preview Content */,
+				6318813F29E089B6005E042C /* App State.swift */,
+				6318814129E089C8005E042C /* AppDelegate.swift */,
+				635CB25429E0AA0A00796968 /* App Constants.swift */,
+				63E83DF929E879BE00F67ABC /* Localizable.strings */,
+			);
+			path = NaTir;
+			sourceTree = "<group>";
+		};
+		63A7D20D29E076CF00A73C2C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				6318813629E08960005E042C /* Enums */,
+				6318813729E08960005E042C /* Extensions */,
+				6318813829E08960005E042C /* Logic */,
+				6318813529E08960005E042C /* Models */,
+				63A7D20E29E076CF00A73C2C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		63AF8E0929E2C467007BE600 /* Sub-Views */ = {
+			isa = PBXGroup;
+			children = (
+				63AF8E0A29E2C473007BE600 /* Train List Row.swift */,
+			);
+			path = "Sub-Views";
+			sourceTree = "<group>";
+		};
+		63AF8E1029E3185C007BE600 /* Reusables */ = {
+			isa = PBXGroup;
+			children = (
+				63AF8E1129E31870007BE600 /* Navigation Arrow Thing.swift */,
+				63AF8E1329E3231C007BE600 /* Buy Tickets Button.swift */,
+			);
+			path = Reusables;
+			sourceTree = "<group>";
+		};
+		63AF8E1529E32AB0007BE600 /* Station Details */ = {
+			isa = PBXGroup;
+			children = (
+				63AF8E1629E32AC0007BE600 /* Station Detail View.swift */,
+			);
+			path = "Station Details";
+			sourceTree = "<group>";
+		};
+		63AF8E1C29E35BD5007BE600 /* Train Details */ = {
+			isa = PBXGroup;
+			children = (
+				637C774C29E40EBF004DA1EC /* Reusables */,
+				63AF8E1F29E36100007BE600 /* Stations */,
+				63AF8E1D29E35BF1007BE600 /* Train Detail View.swift */,
+			);
+			path = "Train Details";
+			sourceTree = "<group>";
+		};
+		63AF8E1F29E36100007BE600 /* Stations */ = {
+			isa = PBXGroup;
+			children = (
+				63AF8E2029E36114007BE600 /* Compact Station List Item.swift */,
+			);
+			path = Stations;
+			sourceTree = "<group>";
+		};
+		63D00D1129E16ACA002FF774 /* Map View */ = {
+			isa = PBXGroup;
+			children = (
+				63D00D0F29E16051002FF774 /* Better Map View.swift */,
+			);
+			path = "Map View";
+			sourceTree = "<group>";
+		};
+		63D00D1429E19046002FF774 /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				63D00D1529E19053002FF774 /* Location Manager.swift */,
+			);
+			path = Map;
+			sourceTree = "<group>";
+		};
+		63D00D1C29E1BE91002FF774 /* Journey */ = {
+			isa = PBXGroup;
+			children = (
+				63D00D1D29E1BEA0002FF774 /* Journey.swift */,
+				63D00D1F29E1BEE5002FF774 /* Stopover.swift */,
+				63AF8E1A29E358A0007BE600 /* Train Stop.swift */,
+				63E83DFE29E9635A00F67ABC /* Delay.swift */,
+			);
+			path = Journey;
+			sourceTree = "<group>";
+		};
+		63D00D2529E1E6F7002FF774 /* Connection Results */ = {
+			isa = PBXGroup;
+			children = (
+				63AF8E0929E2C467007BE600 /* Sub-Views */,
+				63D00D2629E1E707002FF774 /* Connections Result View.swift */,
+				6318509829E203E500D97444 /* Connection Result Row.swift */,
+				63AF8E0C29E2C502007BE600 /* Connection Details View.swift */,
+			);
+			path = "Connection Results";
+			sourceTree = "<group>";
+		};
+		63D00D2829E1E81B002FF774 /* Trackers */ = {
+			isa = PBXGroup;
+			children = (
+				63D00D2929E1E828002FF774 /* Journey Tracker.swift */,
+				63DABE9E29E48EF900820E28 /* Favorites Tracker.swift */,
+				63DABEA029E48F4300820E28 /* History Tracker.swift */,
+				63DF1CD629E5FAEC00A709FC /* Tickets Tracker.swift */,
+			);
+			path = Trackers;
+			sourceTree = "<group>";
+		};
+		63DABE9A29E48DCA00820E28 /* Favorites */ = {
+			isa = PBXGroup;
+			children = (
+				63DABE9C29E48DE900820E28 /* Favorite Route Item.swift */,
+			);
+			path = Favorites;
+			sourceTree = "<group>";
+		};
+		63DABE9B29E48DD200820E28 /* History */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = History;
+			sourceTree = "<group>";
+		};
+		63DABEA229E4A22300820E28 /* Journeys */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Journeys;
+			sourceTree = "<group>";
+		};
+		63DF1CC029E57DC600A709FC /* File Management */ = {
+			isa = PBXGroup;
+			children = (
+				63DF1CC329E57EFE00A709FC /* Journeys */,
+				63DF1CC129E57E4200A709FC /* Encode For Saving.swift */,
+				63DF1CC629E57FD300A709FC /* Write Data to File.swift */,
+				63DF1CCE29E58AAE00A709FC /* Create Empty File.swift */,
+			);
+			path = "File Management";
+			sourceTree = "<group>";
+		};
+		63DF1CC329E57EFE00A709FC /* Journeys */ = {
+			isa = PBXGroup;
+			children = (
+				63DF1CC429E57F0A00A709FC /* Decode From File.swift */,
+			);
+			path = Journeys;
+			sourceTree = "<group>";
+		};
+		63DF1CD329E5F9E800A709FC /* Ticket */ = {
+			isa = PBXGroup;
+			children = (
+				63DF1CD429E5F9FC00A709FC /* Ticket.swift */,
+			);
+			path = Ticket;
+			sourceTree = "<group>";
+		};
+		63DF1CE029E6B99B00A709FC /* Ticket Display */ = {
+			isa = PBXGroup;
+			children = (
+				63DF1CD829E5FB5200A709FC /* Ticket Display View.swift */,
+			);
+			path = "Ticket Display";
+			sourceTree = "<group>";
+		};
+		63DF1CE129E6B9B200A709FC /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				63DF1CE229E6BA3900A709FC /* Old Ticket Row.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		63DF1CE629E7384400A709FC /* Dates */ = {
+			isa = PBXGroup;
+			children = (
+				63DF1CE729E7384E00A709FC /* Combine Date with Time.swift */,
+			);
+			path = Dates;
+			sourceTree = "<group>";
+		};
+		63DF1CE929E8043100A709FC /* Calendar */ = {
+			isa = PBXGroup;
+			children = (
+				63DF1CEA29E8044F00A709FC /* Calendar Manager.swift */,
+			);
+			path = Calendar;
+			sourceTree = "<group>";
+		};
+		63E83E0029E96B7000F67ABC /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				63E83E0129E96B8000F67ABC /* Match REGEX.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		63A7D20329E076CE00A73C2C /* NaTir */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63A7D21229E076CF00A73C2C /* Build configuration list for PBXNativeTarget "NaTir" */;
+			buildPhases = (
+				63A7D20029E076CE00A73C2C /* Sources */,
+				63A7D20129E076CE00A73C2C /* Frameworks */,
+				63A7D20229E076CE00A73C2C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NaTir;
+			packageProductDependencies = (
+				635CB26829E0BD9F00796968 /* SwiftyXMLParser */,
+				63DF1CD129E5F76300A709FC /* CodeScanner */,
+			);
+			productName = NaTir;
+			productReference = 63A7D20429E076CE00A73C2C /* NaTir.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		63A7D1FC29E076CE00A73C2C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					63A7D20329E076CE00A73C2C = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 63A7D1FF29E076CE00A73C2C /* Build configuration list for PBXProject "NaTir" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				sl,
+				cs,
+			);
+			mainGroup = 63A7D1FB29E076CE00A73C2C;
+			packageReferences = (
+				635CB26729E0BD9F00796968 /* XCRemoteSwiftPackageReference "SwiftyXMLParser" */,
+				63DF1CD029E5F76300A709FC /* XCRemoteSwiftPackageReference "CodeScanner" */,
+			);
+			productRefGroup = 63A7D20529E076CE00A73C2C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				63A7D20329E076CE00A73C2C /* NaTir */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		63A7D20229E076CE00A73C2C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63A7D20F29E076CF00A73C2C /* Preview Assets.xcassets in Resources */,
+				63E83DF729E879BE00F67ABC /* Localizable.strings in Resources */,
+				63A7D20C29E076CF00A73C2C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		63A7D20029E076CE00A73C2C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6318814A29E08AAD005E042C /* My Tickets View.swift in Sources */,
+				63AF8E0B29E2C473007BE600 /* Train List Row.swift in Sources */,
+				6318814C29E08ABE005E042C /* More View.swift in Sources */,
+				63AF8E1B29E358A0007BE600 /* Train Stop.swift in Sources */,
+				63D00D2029E1BEE5002FF774 /* Stopover.swift in Sources */,
+				635CB25D29E0B78F00796968 /* Stations View.swift in Sources */,
+				63D00D2A29E1E828002FF774 /* Journey Tracker.swift in Sources */,
+				63DF1CCF29E58AAE00A709FC /* Create Empty File.swift in Sources */,
+				63AF8E0D29E2C502007BE600 /* Connection Details View.swift in Sources */,
+				63DF1CD929E5FB5200A709FC /* Ticket Display View.swift in Sources */,
+				63D00D2229E1BF32002FF774 /* Train.swift in Sources */,
+				63D00D1929E1AD1D002FF774 /* Array - Closest Element.swift in Sources */,
+				63DF1CD729E5FAEC00A709FC /* Tickets Tracker.swift in Sources */,
+				6318814829E08A95005E042C /* Connections View.swift in Sources */,
+				635CB26629E0BA7F00796968 /* API Error.swift in Sources */,
+				63AF8E1929E35874007BE600 /* Get Train Stops.swift in Sources */,
+				63AF8E0F29E3001E007BE600 /* TimeInterval - Convert to Presentable Fromat.swift in Sources */,
+				63AF8E1229E31870007BE600 /* Navigation Arrow Thing.swift in Sources */,
+				63D00D1029E16051002FF774 /* Better Map View.swift in Sources */,
+				63AF8E1729E32AC0007BE600 /* Station Detail View.swift in Sources */,
+				6318509B29E20B9800D97444 /* Date - Convert to Presentable Format.swift in Sources */,
+				63DABEA129E48F4300820E28 /* History Tracker.swift in Sources */,
+				635CB26129E0B83200796968 /* Send SOAP Request.swift in Sources */,
+				63DF1CCC29E582FA00A709FC /* CLLocationCoordinate - Made Codable.swift in Sources */,
+				63DF1CE329E6BA3900A709FC /* Old Ticket Row.swift in Sources */,
+				6318814229E089C8005E042C /* AppDelegate.swift in Sources */,
+				635CB25829E0B6E200796968 /* Get Stations.swift in Sources */,
+				63DF1CC229E57E4200A709FC /* Encode For Saving.swift in Sources */,
+				637E4E2929EC320B004233BA /* Labeled Divider.swift in Sources */,
+				635CB26329E0B8C000796968 /* API Actions.swift in Sources */,
+				63AF8E2129E36114007BE600 /* Compact Station List Item.swift in Sources */,
+				63D00D1629E19053002FF774 /* Location Manager.swift in Sources */,
+				63D00D1E29E1BEA0002FF774 /* Journey.swift in Sources */,
+				63D00D2729E1E707002FF774 /* Connections Result View.swift in Sources */,
+				637C775029E41343004DA1EC /* Train Accessories List View.swift in Sources */,
+				63E83E0429E96F0300F67ABC /* Pill View.swift in Sources */,
+				635CB25529E0AA0A00796968 /* App Constants.swift in Sources */,
+				635CB25A29E0B6F700796968 /* Station.swift in Sources */,
+				635CB26F29E0C5F400796968 /* Station List.swift in Sources */,
+				63AF8E1E29E35BF1007BE600 /* Train Detail View.swift in Sources */,
+				6318509929E203E500D97444 /* Connection Result Row.swift in Sources */,
+				63DF1CE529E710D900A709FC /* Date - Remove Timestamp.swift in Sources */,
+				635CB27129E0CB8D00796968 /* Fake Text Field.swift in Sources */,
+				63DF1CD529E5F9FC00A709FC /* Ticket.swift in Sources */,
+				63A7D20A29E076CE00A73C2C /* ContentView.swift in Sources */,
+				63DF1CC729E57FD300A709FC /* Write Data to File.swift in Sources */,
+				63AF8E1429E3231C007BE600 /* Buy Tickets Button.swift in Sources */,
+				63DF1CC529E57F0A00A709FC /* Decode From File.swift in Sources */,
+				63DF1CE829E7384E00A709FC /* Combine Date with Time.swift in Sources */,
+				637C774E29E40ECC004DA1EC /* Train Name View.swift in Sources */,
+				63AF8E2329E362F8007BE600 /* View - Conditional Modifiers.swift in Sources */,
+				63D00D1B29E1B350002FF774 /* Get Route.swift in Sources */,
+				63E83DF429E86E6600F67ABC /* Date - Get Tomorrow's Date.swift in Sources */,
+				63DABE9F29E48EF900820E28 /* Favorites Tracker.swift in Sources */,
+				635CB26B29E0C28500796968 /* Station List Item.swift in Sources */,
+				63E83E0229E96B8000F67ABC /* Match REGEX.swift in Sources */,
+				63A7D20829E076CE00A73C2C /* NaTirApp.swift in Sources */,
+				63DABE9D29E48DE900820E28 /* Favorite Route Item.swift in Sources */,
+				63DF1CEB29E8044F00A709FC /* Calendar Manager.swift in Sources */,
+				6318814029E089B6005E042C /* App State.swift in Sources */,
+				63E83DFF29E9635A00F67ABC /* Delay.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		63E83DF929E879BE00F67ABC /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				63E83DF829E879BE00F67ABC /* en */,
+				63E83DFA29E879CA00F67ABC /* sl */,
+				63E83DFB29E88CC800F67ABC /* cs */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		63A7D21029E076CF00A73C2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		63A7D21129E076CF00A73C2C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		63A7D21329E076CF00A73C2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_ASSET_PATHS = "\"NaTir/Preview Content\"";
+				DEVELOPMENT_TEAM = ZSVA6DVZHM;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NaTir/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = NaTir;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.travel";
+				INFOPLIST_KEY_NSCalendarsUsageDescription = "NaTir needs access to your calendars to add journeys to your calendar";
+				INFOPLIST_KEY_NSCameraUsageDescription = "NaTir needs access to the camera to scan your tickets for saving";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "NaTir needs your location to show you the closest stations";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.2;
+				PRODUCT_BUNDLE_IDENTIFIER = com.davidbures.NaTir;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		63A7D21429E076CF00A73C2C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_ASSET_PATHS = "\"NaTir/Preview Content\"";
+				DEVELOPMENT_TEAM = ZSVA6DVZHM;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NaTir/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = NaTir;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.travel";
+				INFOPLIST_KEY_NSCalendarsUsageDescription = "NaTir needs access to your calendars to add journeys to your calendar";
+				INFOPLIST_KEY_NSCameraUsageDescription = "NaTir needs access to the camera to scan your tickets for saving";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "NaTir needs your location to show you the closest stations";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.2;
+				PRODUCT_BUNDLE_IDENTIFIER = com.davidbures.NaTir;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		63A7D1FF29E076CE00A73C2C /* Build configuration list for PBXProject "NaTir" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63A7D21029E076CF00A73C2C /* Debug */,
+				63A7D21129E076CF00A73C2C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63A7D21229E076CF00A73C2C /* Build configuration list for PBXNativeTarget "NaTir" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63A7D21329E076CF00A73C2C /* Debug */,
+				63A7D21429E076CF00A73C2C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		635CB26729E0BD9F00796968 /* XCRemoteSwiftPackageReference "SwiftyXMLParser" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/yahoojapan/SwiftyXMLParser.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+		63DF1CD029E5F76300A709FC /* XCRemoteSwiftPackageReference "CodeScanner" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/twostraws/CodeScanner.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		635CB26829E0BD9F00796968 /* SwiftyXMLParser */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 635CB26729E0BD9F00796968 /* XCRemoteSwiftPackageReference "SwiftyXMLParser" */;
+			productName = SwiftyXMLParser;
+		};
+		63DF1CD129E5F76300A709FC /* CodeScanner */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 63DF1CD029E5F76300A709FC /* XCRemoteSwiftPackageReference "CodeScanner" */;
+			productName = CodeScanner;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 63A7D1FC29E076CE00A73C2C /* Project object */;
+}

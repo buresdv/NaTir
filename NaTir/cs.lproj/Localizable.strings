@@ -1,0 +1,87 @@
+/* 
+  Localizable.strings
+  NaTir
+
+  Created by David Bureš on 13.04.2023.
+  
+*/
+
+// MARK: - Common
+
+// MARK: - Actions
+"action.cancel" = "Zrušit";
+"action.close" = "Zavřít";
+"action.scan-ticket" = "Oskenovat lístek";
+"action.search" = "Hledat";
+"action.remove-from-favorites" = "Odstranit z oblíbených";
+
+// MARK: - Titles
+"title.connections" = "Hledání spojů";
+"title.tickets" = "Moje lístky";
+"title.stations" = "Zastávky";
+"title.routes" = "Spoje";
+"title.journey-details" = "Informace o spoji";
+"title.train-info" = "Informace o vlaku";
+
+// MARK: - Alerts
+"alert.calendar.could-not-add-journey.title" = "Spoj se nepovedlo přidat do kalendáře";
+"alert.calendar.could-not-add-journey.message" = "Zavřete aplikaci a zkuste to znovu";
+
+// MARK: - Tabs
+"tab.connections" = "Spoje";
+"tab.my-tickets" = "Lístky";
+"tab.stations" = "Zastávky";
+"tab.more" = "Více";
+
+// MARK: - Connections
+"connections.finder.from" = "Odkud";
+"connections.finder.to" = "Kam";
+"connections.finder.desired-date-time" = "Datum a čas odjezdu";
+
+"connections.station-search-field.placeholder" = "Vyhledat stanici…";
+"connections.station-search-field.connections-finder-sheet.placeholder" = "Název stanice";
+"connections.connections-finder-sheet.nearest-station" = "Nejbližší stanice";
+"connections.connections-finder-sheet.all-stations" = "Všechny stanice";
+"connections.results.transfers-title-%@" = "Přestupy: %@";
+"connections.results.transfers-wait-%@" = "%@ čekání";
+"connections.results.train-bus-replacement" = "Náhradní autobusová doprava";
+"connections.favorite-routes" = "Oblíbené spoje";
+"connections.routes-history" = "Historie";
+"connection.favorite-routes.no-favorites-found.text" = "Žádné spoje nemáte označené jako oblíbené";
+
+"connections.process.finding-routes" = "Vyhledávám spoje…";
+"connections.process.load-tomorrow-routes" = "Načíst zítřejší spoje";
+"connections.process.refreshing-routes" = "Aktualizace…";
+
+"connections.train-detail.station-list.origin-station" = "Odjezd";
+"connections.train-detail.station-list.terminal-station" = "Příjezd";
+"connections.train-detail.tab.all-stops" = "Všechny zastávky";
+"connections.train-detail.tab.legend" = "Legenda";
+"connections.train-detail.explanation.train-is-replaced-by-bus.text" = "Vlak je nahrazený náhradní autobusovou dopravou";
+"connections.train-detail.explanation.train-has-first-class.text" = "Ve vlaku jsou řazeny vozy 1. třídy";
+"connections.train-detail.explanation.train-has-second-class.text" = "Ve vlaku jsou řazeny vozy 2. třídy";
+"connections.train-detail.explanation.train-has-wifi" = "Ve vlaku je WiFi";
+"connections.train-detail.explanation.train-allows-bikes" = "Vlakem můžete přepravovat kola";
+
+"connections.actions.add-to-calendar" = "Přidat spoj do kalendáře";
+
+"connections.status.could-not-find-connections" = "Nenašli jsme žádné vhodné spoje";
+"connections.status.no-connections-at-all" = "Dnes žádné další spoje";
+"connections.status.no-connections-but-there-were-some-before" = "Dnes žádné další spoje";
+
+"connections.option.add-delay" = "Připočítat zpoždění";
+
+// MARK: - Tickets
+"tickets.ticket-list.section.today-tickets.title" = "Lístky z dneška";
+"tickets.ticket-list.section.today-tickets.no-tickets-available" = "Nemáte žádné nedávné lístky";
+"tickets.ticket-list.section.old-tickets.title" = "Starší lístky";
+
+"tickets.old-ticket-display.title" = "Starší lístek";
+"tickets.ticket-item.age-%@" = "Před %@";
+
+"tickets.ticket-list.no-tickets-added.title" = "Nepřidali jste žádné lístky";
+"tickets.ticket-list.no-tickets-added.message" = "Klepnutím na + vpravo nahoře přidejte první lístek";
+
+// MARK: - Stations
+
+// MARK: - Calendar

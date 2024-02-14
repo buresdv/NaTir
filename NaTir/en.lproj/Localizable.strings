@@ -1,0 +1,87 @@
+/* 
+  Localizable.strings
+  NaTir
+
+  Created by David Bureš on 13.04.2023.
+  
+*/
+
+// MARK: - Common
+
+// MARK: - Actions
+"action.cancel" = "Cancel";
+"action.close" = "Close";
+"action.scan-ticket" = "Scan Ticket";
+"action.search" = "Search";
+"action.remove-from-favorites" = "Remove from Favorites";
+
+// MARK: - Titles
+"title.connections" = "Find Route";
+"title.tickets" = "My Tickets";
+"title.stations" = "Stations";
+"title.routes" = "Routes";
+"title.journey-details" = "Journey Details";
+"title.train-info" = "Train Info";
+
+// MARK: - Alerts
+"alert.calendar.could-not-add-journey.title" = "Couldn't Add Journey to Calendar";
+"alert.calendar.could-not-add-journey.message" = "Close the app and try again";
+
+// MARK: - Tabs
+"tab.connections" = "Connections";
+"tab.my-tickets" = "My Tickets";
+"tab.stations" = "Stations";
+"tab.more" = "More";
+
+// MARK: - Connections
+"connections.finder.from" = "From";
+"connections.finder.to" = "To";
+"connections.finder.desired-date-time" = "At";
+
+"connections.station-search-field.placeholder" = "Choose Station…";
+"connections.station-search-field.connections-finder-sheet.placeholder" = "Find Station…";
+"connections.connections-finder-sheet.nearest-station" = "Nearest Station";
+"connections.connections-finder-sheet.all-stations" = "All Stations";
+"connections.results.transfers-title-%@" = "Transfers: %@";
+"connections.results.transfers-wait-%@" = "Wait for %@";
+"connections.results.train-bus-replacement" = "Replacement Bus Service";
+"connections.favorite-routes" = "Favorite Routes";
+"connections.routes-history" = "History";
+"connection.favorite-routes.no-favorites-found.text" = "You don't have any routes favorited";
+
+"connections.process.finding-routes" = "Finding Routes…";
+"connections.process.load-tomorrow-routes" = "Load Tomorrow's Connections";
+"connections.process.refreshing-routes" = "Refreshing…";
+
+"connections.train-detail.station-list.origin-station" = "Origin";
+"connections.train-detail.station-list.terminal-station" = "Terminal";
+"connections.train-detail.tab.all-stops" = "All Stops";
+"connections.train-detail.tab.legend" = "Legend";
+"connections.train-detail.explanation.train-is-replaced-by-bus.text" = "Train is replaced by a bus";
+"connections.train-detail.explanation.train-has-first-class.text" = "Train has first class";
+"connections.train-detail.explanation.train-has-second-class.text" = "Train has second class";
+"connections.train-detail.explanation.train-has-wifi" = "Train has WiFi";
+"connections.train-detail.explanation.train-allows-bikes" = "Train allows bicycles";
+
+"connections.actions.add-to-calendar" = "Add Journey to Calendar";
+
+"connections.status.could-not-find-connections" = "Couldn't find any timely connections";
+"connections.status.no-connections-at-all" = "There are no other connections left today";
+"connections.status.no-connections-but-there-were-some-before" = "There are no other connections for the day";
+
+"connections.option.add-delay" = "Add Delay";
+
+// MARK: - Tickets
+"tickets.ticket-list.section.today-tickets.title" = "Today's Tickets";
+"tickets.ticket-list.section.today-tickets.no-tickets-available" = "You don't have any other recent tickets";
+"tickets.ticket-list.section.old-tickets.title" = "Older Tickets";
+
+"tickets.old-ticket-display.title" = "Older Ticket";
+"tickets.ticket-item.age-%@" = "%@ ago";
+
+"tickets.ticket-list.no-tickets-added.title" = "You have not added any tickets";
+"tickets.ticket-list.no-tickets-added.message" = "Tap + in the top right to scan your first ticket";
+
+// MARK: - Stations
+
+// MARK: - Calendar

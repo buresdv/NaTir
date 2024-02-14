@@ -1,0 +1,87 @@
+/*
+  Localizable.strings
+  NaTir
+
+  Created by David Bureš on 13.04.2023.
+  
+*/
+
+// MARK: - Common
+
+// MARK: - Actions
+"action.cancel" = "Prekliči";
+"action.close" = "Zapri";
+"action.scan-ticket" = "Skeniraj karto";
+"action.search" = "Išči";
+"action.remove-from-favorites" = "Odstrani iz priljubljenih";
+
+// MARK: - Titles
+"title.connections" = "Poišči povezavo";
+"title.tickets" = "Moje karte";
+"title.stations" = "Postaje";
+"title.routes" = "Poti";
+"title.journey-details" = "Podrobnosti o poti";
+"title.train-info" = "Informacije o vlaku";
+
+// MARK: - Alerts
+"alert.calendar.could-not-add-journey.title" = "Potovanja ni bilo mogoče dodati v koledar";
+"alert.calendar.could-not-add-journey.message" = "Zaprite aplikacijo in poskusite ponovno";
+
+// MARK: - Tabs
+"tab.connections" = "Povezave";
+"tab.my-tickets" = "Moje karte";
+"tab.stations" = "Postaje";
+"tab.more" = "Več";
+
+// MARK: - Connections
+"connections.finder.from" = "Od";
+"connections.finder.to" = "Do";
+"connections.finder.desired-date-time" = "Datum in čas potovanja";
+
+"connections.station-search-field.placeholder" = "Izberite postajo…";
+"connections.station-search-field.connections-finder-sheet.placeholder" = "Poiščite postajo…";
+"connections.connections-finder-sheet.nearest-station" = "Najbližja postaja";
+"connections.connections-finder-sheet.all-stations" = "Vse postaje";
+"connections.results.transfers-title-%@" = "Prestopi: %@";
+"connections.results.transfers-wait-%@" = "Čakalna doba %@";
+"connections.results.train-bus-replacement" = "Nadomestni avtobusni prevoz";
+"connections.favorite-routes" = "Priljubljene poti";
+"connections.routes-history" = "Zgodovina";
+"connection.favorite-routes.no-favorites-found.text" = "Nobena pot ni izbrana kot priljubljena";
+
+"connections.process.finding-routes" = "Iskanje poti…";
+"connections.process.load-tomorrow-routes" = "Prikaži jutrišnje poti";
+"connections.process.refreshing-routes" = "Osveževanje…";
+
+"connections.train-detail.station-list.origin-station" = "Začetna postaja";
+"connections.train-detail.station-list.terminal-station" = "Končna postaja";
+"connections.train-detail.tab.all-stops" = "Vse postaje";
+"connections.train-detail.tab.legend" = "Legenda";
+"connections.train-detail.explanation.train-is-replaced-by-bus.text" = "Vlak je nadomeščen z avtobusom";
+"connections.train-detail.explanation.train-has-first-class.text" = "Vlak ima 1. razred";
+"connections.train-detail.explanation.train-has-second-class.text" = "Vlak ima 2. razred";
+"connections.train-detail.explanation.train-has-wifi" = "Vlak ima WiFi";
+"connections.train-detail.explanation.train-allows-bikes" = "Na vlaku so dovoljena kolesa";
+
+"connections.actions.add-to-calendar" = "Dodaj potovanje v koledar";
+
+"connections.status.could-not-find-connections" = "Ni bilo mogoče najti pravočasnih poti";
+"connections.status.no-connections-at-all" = "Danes ni povezav";
+"connections.status.no-connections-but-there-were-some-before" = "Povezav za ta dan ni več";
+
+"connections.option.add-delay" = "Dodajte zamudo";
+
+// MARK: - Tickets
+"tickets.ticket-list.section.today-tickets.title" = "Današnje karte";
+"tickets.ticket-list.section.today-tickets.no-tickets-available" = "Danes nimate nobenih drugih kart";
+"tickets.ticket-list.section.old-tickets.title" = "Starejše karte";
+
+"tickets.old-ticket-display.title" = "Starejše karte";
+"tickets.ticket-item.age-%@" = "Pred %@";
+
+"tickets.ticket-list.no-tickets-added.title" = "Niste dodali nobenih kart";
+"tickets.ticket-list.no-tickets-added.message" = "Pritisnite + desno zgoraj, da poskenirate svojo prvi karto";
+
+// MARK: - Stations
+
+// MARK: - Calendar
