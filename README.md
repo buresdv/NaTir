@@ -16,6 +16,14 @@ Unfortunately, Slovenske železnice shut down the API I was using, so I had to s
 8. Showing what services each train offers
 9. And much more
 
+<p align="center">
+  <img alt="Light" src="https://files.catbox.moe/p1m84p.PNG" width="28%">
+&nbsp; &nbsp; &nbsp; &nbsp;
+  <img alt="Dark" src="https://files.catbox.moe/uta04f.PNG" width="28%">
+  &nbsp; &nbsp; &nbsp; &nbsp;
+  <img alt="Dark" src="https://files.catbox.moe/dusqss.PNG" width="28%">
+</p>
+
 ## Using the source code
 
-Unfortunately, I can't let you use this source code in your own projects without consulting me first. If you're from SŽ and want to partner up, I'm all ears.
+Unfortunately, I can't let you use this source code or these designs in your own projects without consulting me first. If you're from SŽ and want to partner up, I'm all ears.
